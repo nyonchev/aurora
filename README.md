@@ -1,5 +1,5 @@
 <div align="center">
-<h1>@ticketmaster/prism</h1>
+<h1>@ticketmaster/aurora</h1>
 <strong>Shared UI Library for Ticketmaster</strong>
 </div>
 
