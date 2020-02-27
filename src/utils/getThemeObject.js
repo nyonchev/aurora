@@ -1,5 +1,5 @@
 import { themes } from "../theme";
-import { memoize } from "./";
+// import { memoize } from "./";
 
 const getThemeObject = (themeName, customValues) => {
   const baseTheme = themes[themeName] || themes.global;
@@ -11,6 +11,6 @@ const getThemeObject = (themeName, customValues) => {
   return baseTheme;
 };
 
-const memoized = memoize(getThemeObject);
+// const memoized = memoize(getThemeObject);
 
-export default memoized;
+export default getThemeObject;
